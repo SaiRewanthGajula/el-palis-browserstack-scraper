@@ -1,0 +1,9 @@
+selenium>=4.8.0
+deep-translator>=1.11.4
+python-dotenv>=1.0.0
+pip install -r requirements.txt
+Note:
+No need to specify chromedriver in requirements—it is an executable, not a Python pip package.
+If you want to fix package versions to EXACT ones you tested with (for reproducibility), use pip freeze for your environment:
+
+pip freeze > requirements.txt
